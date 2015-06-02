@@ -1,4 +1,4 @@
-package newJavaIO_Decorator;
+package com.mtjwy.newJavaIO_Decorator;
 
 import java.io.FilterInputStream;
 import java.io.IOException;
