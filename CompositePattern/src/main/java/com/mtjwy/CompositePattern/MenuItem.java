@@ -1,4 +1,4 @@
-import com.mtjwy.CompositePattern.MenuComponent;
+package com.mtjwy.CompositePattern;
 
 
 public class MenuItem extends MenuComponent{
