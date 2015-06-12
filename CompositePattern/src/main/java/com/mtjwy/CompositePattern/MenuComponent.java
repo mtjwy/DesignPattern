@@ -1,5 +1,7 @@
 package com.mtjwy.CompositePattern;
 
+import java.util.Iterator;
+
 public abstract class MenuComponent {
 	
 	//composite methods
@@ -28,6 +30,8 @@ public abstract class MenuComponent {
 	public boolean isVegetarian() {
 		throw new UnsupportedOperationException();
 	}
+	
+	public abstract Iterator<MenuComponent> createIterator();
   
 	public void print() {
 		throw new UnsupportedOperationException();

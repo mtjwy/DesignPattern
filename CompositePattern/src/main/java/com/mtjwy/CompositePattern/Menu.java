@@ -1,5 +1,6 @@
 package com.mtjwy.CompositePattern;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 
@@ -43,5 +44,10 @@ public class Menu extends MenuComponent{
 		for(MenuComponent m : menuComponents) {
 			m.print();
 		}
+	}
+
+	
+	public Iterator<MenuComponent> createIterator() {
+		return new CompositeIterator(menuComponents.iterator());
 	}
 }
