@@ -25,7 +25,12 @@ public class Waitress {
 					menuComponent.print();
 				}
 			} catch (UnsupportedOperationException e) {
-				e.printStackTrace();
+				//e.printStackTrace();
+				/*
+				 * head first design pattern p375 , talk about why ignore exception,
+				 * 
+				 * for transparency
+				 */
 			}
 		}
 	}

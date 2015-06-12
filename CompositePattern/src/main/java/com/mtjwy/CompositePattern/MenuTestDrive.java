@@ -126,7 +126,7 @@ public class MenuTestDrive {
  
 		Waitress waitress = new Waitress(allMenus);
    
-		waitress.printMenu();
+		waitress.printVegetarianMenu();
 		
 		
 	}
