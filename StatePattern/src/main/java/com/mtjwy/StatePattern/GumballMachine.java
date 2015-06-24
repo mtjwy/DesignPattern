@@ -56,7 +56,7 @@ public class GumballMachine {
 			return state;
 		}
 		
-		public State getSoldoutState() {
+		public State getSoldOutState() {
 			return soldOutState;
 		}
 		public State getNoQuarterState() {
