@@ -18,7 +18,7 @@ public class SoldState implements State{
 		
 	}
 
-	public void turCrank() {
+	public void turnCrank() {
 		System.out.println("Turning twice doesn't get you another gumball!");
 		
 	}

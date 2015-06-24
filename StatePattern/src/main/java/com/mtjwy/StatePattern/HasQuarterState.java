@@ -17,7 +17,7 @@ public class HasQuarterState implements State {
 		
 	}
 
-	public void turCrank() {
+	public void turnCrank() {
 		System.out.println("You turned ...");
 		gumballMachine.setState(gumballMachine.getSoldState());
 		

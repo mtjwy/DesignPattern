@@ -27,8 +27,8 @@ public class GumballMachine {
 		public void ejectQuarter() {
 			state.ejectQuarter();
 		}
-		public void turCrank() {
-			state.turCrank();
+		public void turnCrank() {
+			state.turnCrank();
 			state.dispense();
 		}
 		
